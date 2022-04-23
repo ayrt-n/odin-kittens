@@ -7,3 +7,4 @@
   <p>Softness: <%= @kitten.softness %></p>
 </div>
 <%= link_to "Release kitten", @kitten, data: { turbo_method: :delete, turbo_confirm: "Are you sure?" } %>
+<%= link_to "Edit kitten", edit_kitten_path(@kitten) %>

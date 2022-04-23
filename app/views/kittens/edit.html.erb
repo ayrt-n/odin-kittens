@@ -1,3 +1,4 @@
 <h1>Edit the kitten!</h1>
 
 <%= render 'form', kitten: @kitten %>
+<%= link_to "Release kitten", @kitten, data: { turbo_method: :delete, turbo_confirm: "Are you sure?" } %>
