@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+ div.success {
+   width: 100vw;
+   background-color: rgb(117, 214, 117);
+ }
+
+ div.error {
+  width: 100vw;
+  background-color: rgb(214, 117, 117);
+}
+
+div.field_with_errors {
+  display: inline;
+}
