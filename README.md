@@ -1,4 +1,4 @@
-# Flight Booker
+# Kittens API
 
 ## Overview
 
